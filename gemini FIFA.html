@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA World Cup Fan Zone</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #8a1538; /* Classic World Cup Maroon */
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            background-image: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=1200'); /* High-quality soccer placeholder */
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid #8a1538;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #8a1538;
+            margin-bottom: 0.5rem;
+        }
+        .stat-label {
+            font-size: 1rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .info-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #8a1538;
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FIFA World Cup Hub</h1>
+        <p>Celebrating the Beautiful Game</p>
+    </header>
+
+    <div class="container">
+        <!-- PHOTO SECTION -->
+        <div class="hero-image" title="World Cup Stadium"></div>
+
+        <!-- NUMBERS / STATS SECTION -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Most Titles (Brazil)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">48</div>
+                <div class="stat-label">Teams (2026 Grid)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1930</div>
+                <div class="stat-label">Inaugural Year</div>
+            </div>
+        </div>
+
+        <!-- INFORMATION SECTION -->
+        <div class="info-section">
+            <h2>About the Tournament</h2>
+            <p>The FIFA World Cup is the premier international football competition contested by the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA).</p>
+            <p>The championship has been awarded every four years since the inaugural tournament in 1930, except in 1942 and 1946 when it was not held because of the Second World War. It is the most prestigious football tournament in the world, as well as the most widely viewed and followed single sporting event on the planet.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 FIFA World Cup Fan Site. Created with passion for football.</p>
+    </footer>
+
+</body>
+</html>
